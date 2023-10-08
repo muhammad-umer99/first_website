@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-main-color: #1f242d;
+    --bg-second-color: #323946;
+    --text-color: #fff;
+    --main-colorc: #0ef;
+}
+
+body {
+    background: var(--bg-main-color);
+    color: var(--text-color);
+}
+
+header {
+
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a:hover {
+    color: var(--main-colorc);
+}
+
+.active a:active {
+    color: var(--main-colorc);
+}
+
+
+/* Styling  Home Page */
+
+.home {
+    margin: 3rem 7rem 4rem 7rem;
+    min-height: 100vh;
+}
+
+.home_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_image img {
+    height: 600px;
+}
+
+.text_content h3 {
+    color: var(--text-color);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text_content h1 {
+    margin: 5px 0;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.text_content h2 {
+    color: var(--main-colorc);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text_content p {
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.social_icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--main-colorc);
+    border-radius: 25px;
+    margin: 10px 0;
+    color: var(--main-colorc);
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.social_icons a:hover {
+    box-shadow: 0 0 23px var(--main-colorc);
+}
+
+#icon_space {
+    margin-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 8px 20px;
+    background: var(--main-colorc);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 23px var(--main-colorc);
+}
+
+/* About Section Styling */
+
+.about {
+    margin: 4rem 7rem;
+    min-height: 100vh;
+
+}
+
+.about_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_img img {
+    height: 600px;
+}
+
+.about_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.about_text span {
+    color: var(--main-colorc);
+}
+
+.about_text h2 {
+    margin: 10px 0px;
+    color: var(--text-color);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about_text p {
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Services Styling */
+.service {
+    margin: 5rem 7rem;
+    min-height: 100vh;
+}
+
+.service_heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1 1;
+    background: var(--bg-second-color);
+    padding: 60px 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 30px 8px;
+    transition: .5s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.04);
+    border: 2px solid var(--main-colorc);
+
+}
+
+.card i {
+    font-size: 60px;
+    color: var(--main-colorc);
+    margin-bottom: 10px;
+
+}
+
+.card h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
