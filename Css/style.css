@@ -246,3 +246,51 @@ header {
     margin-bottom: 10px;
 
 }
+
+/* portfloo section  */
+
+.portfolio{
+    margin-top: 100px;
+
+}
+.portflio_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+    
+ .portfolio_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2;
+    margin-top: 20px;
+}
+
+.portfolio_card{
+    flex: 1 1;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.portfolio_card img{
+    width: 360px;
+    padding: 0 10px;
+}
+
+.portfolio_card h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 12px 0;
+
+}
+
+.portfolio_card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
