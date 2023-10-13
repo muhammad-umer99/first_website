@@ -249,11 +249,12 @@ header {
 
 /* portfloo section  */
 
-.portfolio{
+.portfolio {
     margin-top: 100px;
 
 }
-.portflio_heading{
+
+.portflio_heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     text-align: center;
@@ -261,8 +262,8 @@ header {
     margin-bottom: 20px;
 }
 
-    
- .portfolio_container{
+
+.portfolio_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,26 +272,87 @@ header {
     margin-top: 20px;
 }
 
-.portfolio_card{
+.portfolio_card {
     flex: 1 1;
     text-align: center;
     margin-top: 25px;
 }
 
-.portfolio_card img{
+.portfolio_card img {
     width: 360px;
     padding: 0 10px;
 }
 
-.portfolio_card h1{
+.portfolio_card h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 12px 0;
 
 }
 
-.portfolio_card p{
+.portfolio_card p {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
 
+
+/* Contact Form Styling */
+
+.contact {
+    margin-top: 120px;
+}
+
+.contact_heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.name {
+    padding: 10px;
+}
+
+.name input {
+    background: var(--bg-second-color);
+    border-radius: 20px;
+    border: 1px solid var(--text-color);
+    padding: 10px 30px;
+    color: var(--text-color);
+}
+
+.message {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.message textarea {
+    background: var(--bg-second-color);
+    border-radius: 20px;
+    border: 1px solid var(--text-color);
+    padding: 10px 115px;
+    color: var(--text-color);
+}
+
+
+.S_button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.S_button input {
+    display: inline-block;
+
+    margin: 10px 0px;
+    padding: 8px 20px;
+    background: var(--main-colorc);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.S_button input:hover {
+    box-shadow: 0 0 23px var(--main-colorc);
+}
